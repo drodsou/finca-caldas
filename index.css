@@ -1,9 +1,10 @@
-body {
+body, html {
   font-family: sans-serif;
   max-width: 1000px;
   margin: auto;
   font-size: 16px;
   background-color: #eee;
+  height: 100vh;
 }
 
 main {
@@ -12,15 +13,21 @@ main {
   background-color: #fff;
 }
 
-h1 {
-  font-size: 3rem;
+h1, h2 {
+  color: rgb(1, 109, 156);
+  /* color: rgb(187, 75, 1); */
 }
 
-@media (max-width: 695px) {
-  h1 {
-    font-size: 2rem;
-  }
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  
 }
+  @media (max-width: 695px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
 
 img.peque {
   max-width: 300px;

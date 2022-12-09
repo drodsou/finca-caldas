@@ -5,6 +5,7 @@
 
 - Foto/s a pie
 - revisar meta tags para SEO
+- favicon?
 
 - precio ok?
 - teléfonos ok?
